@@ -25,4 +25,9 @@ if (choixListe === "mots") {
     }    
 }
 
+function returnMessageScore(score, nombreQuestions) {
+    let message = "Votre score est de " + score + " sur " + nombreQuestions;
+    return message
+}
+
 console.log(score);
